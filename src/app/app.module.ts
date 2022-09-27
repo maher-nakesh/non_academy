@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './pages/courses/courses.component';
@@ -13,6 +15,8 @@ import { NewsComponent } from './pages/news/news.component';
 import { CourseInfoComponent } from './pages/course-info/course-info.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { TeachersComponent } from './pages/teachers/teachers.component';
+import { CardComponent } from './components/card/card.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,11 +30,13 @@ import { TeachersComponent } from './pages/teachers/teachers.component';
     NewsComponent,
     CourseInfoComponent,
     ArticleComponent,
-    TeachersComponent
+    TeachersComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

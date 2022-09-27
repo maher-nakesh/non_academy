@@ -331,7 +331,7 @@ section
 .logo_container
 {
 	display: inline-block;
-	padding-left: 76px;
+	padding-left: 45px;
 }
 .logo span
 {
@@ -343,6 +343,7 @@ section
 	text-transform: uppercase;
 	margin-left: 3px;
 }
+
 
 /*********************************
 3.2 Main Nav
@@ -786,7 +787,7 @@ section
 .hero_box
 {
 	width: 100%;
-	height: 150px;
+	height: 130px;
 	background: #1a1a1a;
 	padding-left: 50px;
 	cursor: pointer;
