@@ -920,6 +920,7 @@ section
 	display: block;
 	background: #f8f9fb;
 	border: none;
+  padding-bottom: 10px;
 }
 .card-img-top
 {
@@ -1015,6 +1016,7 @@ section
 .register_content
 {
 	width: 522px;
+
 }
 .register_title
 {
@@ -1222,6 +1224,7 @@ input:last-of-type
 {
 	color: #FFFFFF;
 	margin-bottom: 0px;
+  font-size: 30px;
 }
 .testimonial_user
 {
@@ -1241,7 +1244,7 @@ input:last-of-type
 }
 .testimonial_name
 {
-	font-size: 16px;
+	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #f6af03;
@@ -1249,7 +1252,7 @@ input:last-of-type
 }
 .testimonial_title
 {
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: 500;
 	color: #FFFFFF;
 	margin-top: 6px;
@@ -1319,7 +1322,7 @@ input:last-of-type
 }
 .event_name a
 {
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: 500;
 	color: #1a1a1a;
 }
@@ -1329,7 +1332,7 @@ input:last-of-type
 }
 .event_location
 {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	color: #1a1a1a;
 	margin-top: 2px;
@@ -1349,6 +1352,11 @@ input:last-of-type
 {
 	width: 100%;
 }
+.event_explain
+{
+  font-size: 20px;
+	font-weight: 500;
+}
 
 /*********************************
 15. Footer
@@ -1364,7 +1372,17 @@ input:last-of-type
 {
 	color: #FFFFFF;
 }
-
+.logo_footer
+{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+ 	vertical-align: middle;
+	text-transform: uppercase;
+	margin-left: 3px;
+}
 /*********************************
 15.1 Newsletter
 *********************************/
