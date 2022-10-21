@@ -163,6 +163,7 @@
 	font-size: 36px;
 	font-weight: 500;
 	color: #1a1a1a;
+  text-align: center;
 }
 .contact_form_container
 {
@@ -173,9 +174,13 @@
 	width: 100%;
 	background: #f8f4f4;
 	border: solid 2px transparent;
-	margin-bottom: 24px;
+	margin-bottom: 7px;
 	height: 42px;
 	padding-left: 33px;
+}
+#contact_form_email{
+  margin-bottom: 7px;
+
 }
 .input_field:focus
 {

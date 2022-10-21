@@ -1,100 +1,56 @@
 <div class="super_container">
-<!-- Home -->
+  <!-- Home -->
 
-	<!-- Popular -->
+  <!-- Popular -->
 
-	<div class="popular page_section">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title text-center">
-						<h1>الدورات</h1>
-					</div>
-				</div>
-			</div>
+  <div class="popular page_section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="section_title text-center">
+            <h1>الدورات</h1>
+          </div>
+        </div>
+      </div>
 
-			<div class="row course_boxes">
+      <div class="row course_boxes">
+        <!-- Popular Course Item -->
+        <div class="col-lg-4 course_box" *ngFor="let course of Courseservice.Courses">
+          <a   [routerLink]="['/courseinfo',course._id]" style="text-decoration: none;">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="assets/images/course_1.jpg"
+              alt="https://unsplash.com/@kellybrito"
+            />
+            <div class="card-body text-center">
+              <div class="card-title">
+                <a  routerLink="['../courseinfo',course_id]" style="text-decoration: none;">{{course.title}}</a>
+              </div>
+              <div class="card-text">{{course.Description}}</div>
+            </div>
+            <div class="price_box d-flex flex-row align-items-center">
+              <div class="course_author_image">
+                <img
+                  src="assets/images/author.jpg"
+                  alt="https://unsplash.com/@mehdizadeh"
+                />
+              </div>
+              <div class="course_author_name">
+                {{course.teacher}} , <span>{{course.speciality}}</span>
+              </div>
+              <div
+                class="course_price d-flex flex-column align-items-center justify-content-center"
+              >
+                <span>${{course.price}}</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="../../../assets/images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">الحساب السريع</a></div>
-							<div class="card-text">تعلم الحساب السريع بالطريفة اليابانية</div>
-						</div>
-						<div class="price_box d-flex flex-row align-items-center">
-							<div class="course_author_image">
-								<img src="../../../assets/images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
-							</div>
-							<div class="course_author_name">أبو أحمد خمشو, <span>دكتور الحساب</span></div>
-							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="../../../assets/images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">الحساب السريع</a></div>
-							<div class="card-text">تعلم الحساب السريع بالطريفة اليابانية</div>
-						</div>
-						<div class="price_box d-flex flex-row align-items-center">
-							<div class="course_author_image">
-								<img src="../../../assets/images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
-							</div>
-							<div class="course_author_name">أبو أحمد خمشو, <span>دكتور الحساب</span></div>
-							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="../../../assets/images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">الحساب السريع</a></div>
-							<div class="card-text">تعلم الحساب السريع بالطريفة اليابانية</div>
-						</div>
-						<div class="price_box d-flex flex-row align-items-center">
-							<div class="course_author_image">
-								<img src="../../../assets/images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
-							</div>
-							<div class="course_author_name">أبو أحمد خمشو, <span>دكتور الحساب</span></div>
-							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
-					<div class="card">
-						<img class="card-img-top" src="../../../assets/images/course_1.jpg" alt="https://unsplash.com/@kellybrito">
-						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">الحساب السريع</a></div>
-							<div class="card-text">تعلم الحساب السريع بالطريفة اليابانية</div>
-						</div>
-						<div class="price_box d-flex flex-row align-items-center">
-							<div class="course_author_image">
-								<img src="../../../assets/images/author.jpg" alt="https://unsplash.com/@mehdizadeh">
-							</div>
-							<div class="course_author_name">أبو أحمد خمشو, <span>دكتور الحساب</span></div>
-							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>$29</span></div>
-						</div>
-					</div>
-				</div>
-
-
-
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-
-
+  <!-- Footer -->
 </div>

@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("assets/styles/about.css");
+
 @import url("assets/styles/main_styles.css");
 @import url("assets/styles/bootstrap4/bootstrap.min.css");
 @import url("assets/styles/responsive.css");
@@ -13,7 +15,8 @@
 @import url("assets/styles/news_responsive.css");
 @import url("assets/styles/teachers_styles.css");
 @import url("assets/styles/teachers_responsive.css");
-
-
-
-
+@import url("assets/styles/contact_styles.css");
+@import url("assets/styles/contact_styles.css");
+@import url("assets/styles/course_info.css");
+@import url("assets/styles/courses_styles.css");
+@import url("assets/styles/courses_responsive.css");

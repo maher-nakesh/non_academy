@@ -8,6 +8,7 @@ import { NewsComponent } from './pages/news/news.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { TeachersComponent } from './pages/teachers/teachers.component';
 import { CourseInfoComponent } from './pages/course-info/course-info.component';
+import { CardComponent } from './components/card/card.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'news',component:NewsComponent},
   {path:'artical',component:ArticleComponent},
   {path:'teachers',component:TeachersComponent},
-  {path:'course1',component:CourseInfoComponent}
+  {path:'courseinfo/:id',component:CourseInfoComponent},
+  {path:'teacher_info',component:CardComponent}
 
 ];
 
