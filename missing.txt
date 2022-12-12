@@ -1,0 +1,20 @@
+course regestier :
+course name
+
+-----------------------
+server :
+add error handler for all functions.
+add requireLogin for all functions
+--------------------------
+cpanal:
+login:
+hide password : https://www.youtube.com/watch?v=R7s5I9H1H9s&list=PLc2Ziv7051bZhBeJlJaqq5lrQuVmBJL6A
+
+
+
+
+
+
+
+
+
